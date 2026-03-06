@@ -1,23 +1,27 @@
-  GNU nano 8.5                                                          os-intro-lab02-presentation.qmd                                                                   
 ---
-## Author
-author:
-  name: Арина Андреевна Дрекина
-  degrees: DSc
-  orcid: 0000-0002-0877-7063
-  email: 1032253548@rudn.ru
-  affiliation:
-    - name: Российский университет дружбы народов
-      country: Российская Федерация
-      postal-code: 117198
-      city: Москва
-      address: ул. Миклухо-Маклая, д. 6
-## Title
-title: Отчет по лабораторной работе №2
+## Front matter
+lang: ru-RU
+title: Лабораторная работа №2
 subtitle:Дисциплина: Операционные системы
-license: CC BY
-date: today
-date-format: "2026-03-04" # Example: 2025-09-06
+author:
+  - Дрекина Арина Андреевна
+institute:
+  - Российский университет дружбы народов, Москва, Россия
+date: 2026.03.04
+
+## i18n babel
+babel-lang: russian
+babel-otherlangs: english
+
+## Formatting pdf
+toc: false
+toc-title: Содержание
+slide_level: 2
+aspectratio: 169
+section-titles: true
+theme: metropolis
+header-includes:
+ - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
 ---
 # Информация
 
@@ -29,6 +33,7 @@ date-format: "2026-03-04" # Example: 2025-09-06
   * студентка факультета физико-математических и естественных наук
   * Российский университет дружбы народов им. П. Лумумбы
   * [1032253548@rudn.ru](mailto:1032253548@rudn.ru)
+  * <https://yamadharma.github.io/ru/>
 
 ---
 
@@ -59,7 +64,7 @@ VirtualBox версии 7.0 или новее.
 
 Сначала скачаем файл для установки вирутальной машины. А потом создадим виртуальную машину.
 
-![Создание виртуальной машины.](image/r1.png){#fig-001 width=70%}
+![Создание виртуальной машины.](image/r1.png){#fig-001 width=50%}
 
 ---
 
@@ -71,13 +76,13 @@ VirtualBox версии 7.0 или новее.
 
 После запуска виртуальной машины открываем окно, с помощью клавиш win+d. Там мы выбираем пункт liveinst
 
-![Открытие рабочего окна.](image/r3.png){#fig-003 width=70%}
+![Открытие рабочего окна.](image/r3.png){#fig-003 width=50%}
 
 ---
 
 Открывается окно  "установка Fedora Linux" введем свои данные и создадим пароль.
 
-![Настройка fedora sway.](image/r4.png){#fig-004 width=70%}
+![Настройка fedora sway.](image/r4.png){#fig-004 width=50%}
 
 ---
 
@@ -99,9 +104,13 @@ VirtualBox версии 7.0 или новее.
 
 ---
 
-Далее необходимо установить пакет DKMS. Затем нужно подмантировать диск и установить драйвер
+Далее необходимо установить пакет DKMS.
 
 ![Установка пакета DKMS.](image/r8.png){#fig-008 width=70%}
+
+---
+
+Подмантируем диск и установливаем драйвер
 
 ![Мантировка диска.](image/r9.png){#fig-009 width=70%}
 
@@ -155,7 +164,7 @@ VirtualBox версии 7.0 или новее.
 
 Редактируем конфигурацию для настройки клавиатуры.
 
-![Создание конфигурации.](image/r25.png){#fig-019 width=70%}
+![Создание конфигурации.](image/r25.png){#fig-019 width=50%}
 
 ---
 
@@ -183,13 +192,11 @@ VirtualBox версии 7.0 или новее.
 
 ## Домашняя работа.
 
----
-
 С помощью комнады dmesg анализируем  последовательность загрузки системы.
 
-![Ввод команды.](image/r40.png){#fig-024 width=70%}
+![Ввод команды.](image/r40.png){#fig-024 width=30%}
 
-![Анализ загрузок.](image/r30.png){#fig-025 width=70%}
+![Анализ загрузок.](image/r30.png){#fig-025 width=45%}
 
 ---
 
