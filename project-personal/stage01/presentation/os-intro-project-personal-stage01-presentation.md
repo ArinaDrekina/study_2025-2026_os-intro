@@ -1,24 +1,27 @@
 ---
-## Author
-author:
-  name: Арина Андреевна Дрекина
-  degrees: DSc
-  orcid: 0000-0002-0877-7063
-  email: 1032253548@rudn.ru
-  affiliation:
-    - name: Российский университет дружбы народов
-      country: Российская Федерация
-      postal-code: 117198
-      city: Москва
-      address: ул. Миклухо-Маклая, д. 6
-
-## Title
+## Front matter
+lang: ru-RU
 title: Отчет по индивидуальному проекту, первый этап
 subtitle:Дисциплина: Операционные системы
-license: CC BY
-date: today
-date-format: "2026-03-74" # Example: 2025-09-06
+author:
+  - Дрекина Арина Андреевна
+institute:
+  - Российский университет дружбы народов, Москва, Россия
+date: 2026.03.04
 
+## i18n babel
+babel-lang: russian
+babel-otherlangs: english
+
+## Formatting pdf
+toc: false
+toc-title: Содержание
+slide_level: 2
+aspectratio: 169
+section-titles: true
+theme: metropolis
+header-includes:
+ - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
 ---
 
 ## Информация
@@ -32,6 +35,7 @@ date-format: "2026-03-74" # Example: 2025-09-06
   * Российский университет дружбы народов им. П. Лумумбы
   * [1032253548@rudn.ru](mailto:1032253548@rudn.ru)
 
+---
 
 # Цель работы
 
@@ -41,10 +45,10 @@ date-format: "2026-03-74" # Example: 2025-09-06
 
 Установка необходимого программного обеспечение. Скачивание шаблона сайта. Уставнока параметра для URLs сайта. Размещение заготовок сайта на GitHub pages.
 
-
-# Выполнение лабораторной работы
-
 ---
+
+## Выполнение лабораторной работы
+
 
 Проверка установки git.
 
@@ -126,7 +130,7 @@ Cкачиваем пакет Extended.
 
 Создаем файл и вставляем в это него текст с настройками. 
 
-![Вставка текста.](image/r18.png){#fig-016 width=70%}
+![Вставка текста.](image/r18.png){#fig-016 width=50%}
 
 ---
 
@@ -139,6 +143,8 @@ Cкачиваем пакет Extended.
 В конце мы отправляем изменения и запускаем деплой.(
 
 ![Отправление изменений.](image/r21.png){#fig-018 width=70%}
+
+---
 
 ## Вывод
 
