@@ -1,25 +1,30 @@
 ---
-## Author
-author:
-  name: Арина Андреевна Дрекина
-  degrees: DSc
-  orcid: 0000-0002-0877-7063
-  email: 1032253548@rudn.ru
-  affiliation:
-    - name: Российский университет дружбы народов
-      country: Российская Федерация
-      postal-code: 117198
-      city: Москва
-      address: ул. Миклухо-Маклая, д. 6
-## Title
-title: Отчет по лабораторной работе №6
+## Front matter
+lang: ru-RU
+title: Лабораторная работа №4
 subtitle:Дисциплина: Операционные системы
-license: CC BY
-date: today
-date-format: "2026-03-20" # Example: 2025-09-06
+author:
+  - Дрекина Арина Андреевна
+institute:
+  - Российский университет дружбы народов, Москва, Россия
+date: 2026.03.04
+
+## i18n babel
+babel-lang: russian
+babel-otherlangs: english
+
+## Formatting pdf
+toc: false
+toc-title: Содержание
+slide_level: 2
+aspectratio: 169
+section-titles: true
+theme: metropolis
+header-includes:
+ - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
 ---
 
-## Информация
+# Информация
 
 ## Докладчик
 
@@ -143,8 +148,6 @@ rm [-опции] [файл]
 ![Команда ls с опцией -a.](image/r3.png){#fig-003 width=40%}
 
 ![Команда ls с опцией -al.](image/r4.png){#fig-004 width=40%}
-
-![Команда ls с опцией -alF.](image/r5.png){#fig-005 width=40%}
 
 ---
 
