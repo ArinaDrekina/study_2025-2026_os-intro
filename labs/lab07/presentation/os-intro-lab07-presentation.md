@@ -1,25 +1,30 @@
 ---
-## Author
-author:
-  name: Арина Андреевна Дрекина
-  degrees: DSc
-  orcid: 0000-0002-0877-7063
-  email: 1032253548@rudn.ru
-  affiliation:
-    - name: Российский университет дружбы народов
-      country: Российская Федерация
-      postal-code: 117198
-      city: Москва
-      address: ул. Миклухо-Маклая, д. 6
-## Title
-title: Отчет по лабораторной работе №7
+## Front matter
+lang: ru-RU
+title: Лабораторная работа №7
 subtitle:Дисциплина: Операционные системы
-license: CC BY
-date: today
-date-format: "2026-03-27" # Example: 2025-09-06
+author:
+  - Дрекина Арина Андреевна
+institute:
+  - Российский университет дружбы народов, Москва, Россия
+date: 2026.03.04
+
+## i18n babel
+babel-lang: russian
+babel-otherlangs: english
+
+## Formatting pdf
+toc: false
+toc-title: Содержание
+slide_level: 2
+aspectratio: 169
+section-titles: true
+theme: metropolis
+header-includes:
+ - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
 ---
 
-## Информация
+# Информация
 
 ## Докладчик
 
@@ -138,7 +143,6 @@ chmod режим имя_файла
 
 Режим (в формате команды) имеет следующие компоненты структуры и способ записи:
 
-```
 
 = установить право
 - лишить права
@@ -150,11 +154,7 @@ u (user) владелец файла
 g (group) группа, к которой принадлежит владелец файла
 o (others) все остальные
 
-```
-
 # Выполнение лабораторной работы
-
----
 
 Создание файл abc1. Копирование его в файл april и в файл may.
 
@@ -188,11 +188,11 @@ o (others) все остальные
 
 Создаем файл с правом выполнения для владельца.
 
-![Создание файла с правми для владельца.](image/r11.png){#fig-011 width=50%}
+![Создание файла с правми для владельца.](image/r11.png){#fig-011 width=40%}
 
 Лишение владельца прав на выполнение. 
 
-![Смена прав владельца.](image/r12.png){#fig-012 width=50%}
+![Смена прав владельца.](image/r12.png){#fig-012 width=40%}
 
 ---
 
@@ -234,7 +234,7 @@ o (others) все остальные
 
 Создадим каталог play и с помощью команды chmod присовоим необходимые права доступа.
 
-![Присвоение прав доступа каталогу play.](image/r24.png){#fig-024 width=45%}
+![Присвоение прав доступа каталогу play.](image/r24.png){#fig-024 width=40%}
 
 ---
 
