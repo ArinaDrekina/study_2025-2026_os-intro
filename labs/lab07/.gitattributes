@@ -1,0 +1,1 @@
+labs/lab02/report/quarto-linux-x86_64.rpm filter=lfs diff=lfs merge=lfs -text
